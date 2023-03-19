@@ -13,7 +13,7 @@
     {% if request.user.is_authenticated %}
         <div class="flex">
             <a style="margin-left: 10px; margin-right: 10px; font-size: 22px; color: black" href="{% url 'CreateClient' %}">Create client</a>
-            <a style="margin-left: 10px; margin-right: 10px; font-size: 22px; color: black" href="{% url 'settings' %}">Settings</a>
+            <a style="margin-left: 10px; margin-right: 10px; font-size: 22px; color: black" href="{% url 'settings' %}">Settings:)</a>
             <a style="margin-left: 10px; margin-right: 10px; font-size: 22px; color: black" href="{% url 'logout' %}">LogOut</a>
         </div>
         {% for i in form %}
