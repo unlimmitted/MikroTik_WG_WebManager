@@ -17,5 +17,5 @@ sudo docker-compose stop web
 ```
 If you need to remove the container:
 ```cpp
-sudo docker-compose container rm web
+sudo docker-compose rm web
 ```
