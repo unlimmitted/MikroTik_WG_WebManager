@@ -6,6 +6,9 @@ Run in project directory
 sudo docker-compose build
 ```
 ```cpp
+python manage.py migrate 
+```
+```cpp
 python manage.py createsuperuser 
 ```
 ```cpp
